@@ -3,6 +3,8 @@ import { App } from './components/App/App.jsx'
 import { Provider } from 'react-redux'
 import store from './store.js'
 
+import 'atropos/css'
+
 const root = createRoot(document.getElementById('app'))
 
 root.render(
