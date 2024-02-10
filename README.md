@@ -1,9 +1,8 @@
 # spa-cats-gallery
 
-Gets data from this APIs and shows cats info:
+Gets data from IMGUR API with OAUTH 2.0 and shows cats info:
 
-- https://catfact.ninja/
-- https://cataas.com/
+- https://apidocs.imgur.com/
 
 ## Run Locally
 

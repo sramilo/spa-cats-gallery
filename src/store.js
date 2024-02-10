@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit'
-import catFact from './reducers/catFact'
+import catImageList from './reducers/catImageList'
 
 export default configureStore({
   reducer: {
-    catFact
+    catImageList
   }
 })
