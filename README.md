@@ -6,7 +6,7 @@ Gets data from IMGUR API with OAUTH 2.0 and shows cats info:
 
 ## Tech Stack
 
-![react + redux + oauth2.0 + html5 + css3 + sass + javascript + express + nodejs + vite](https://github.com/sramilo/spa-cats-gallery/blob/develop/public/tech_stack.png?raw=true)
+![react + redux + oauth2.0 + html5 + css3 + sass + javascript + express + nodejs + vite](https://github.com/sramilo/spa-cats-gallery/blob/develop/public/techstack.png?raw=true)
 
 
 ## Run Locally
