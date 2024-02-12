@@ -4,6 +4,11 @@ Gets data from IMGUR API with OAUTH 2.0 and shows cats info:
 
 - https://apidocs.imgur.com/
 
+## Tech Stack
+
+![react + redux + oauth2.0 + html5 + css3 + sass + javascript + express + nodejs + vite](https://github.com/sramilo/spa-cats-gallery/blob/develop/public/tech_stack.png?raw=true)
+
+
 ## Run Locally
 
 Clone the project
@@ -18,6 +23,24 @@ Go to the project directory
   cd spa-cats-gallery
 ```
 
+Create an Imgur account and follow the steps defined [here](https://apidocs.imgur.com/#authorization-and-oauth)
+
+Once you have client_id and client_secret, create a .env file in project root folder with the following:
+
+```
+IMGUR_CLIENT_ID=<your imgur client id>
+IMGUR_CLIENT_SECRET=<your imgur client secret>
+REDIRECT_URL=http://localhost:5173/auth/callback
+CLIENT_URL=http://localhost:5173
+TOKEN_SECRET=<any random string>
+AUTH_URL=https://api.imgur.com/oauth2/authorize
+ACCESS_TOKEN_URL=https://api.imgur.com/oauth2/token
+
+VITE_REACT_APP_SERVER_URL = http://localhost:5000
+``` 
+
+### Run React SPA
+
 Install dependencies
 
 ```bash
@@ -28,6 +51,14 @@ Start the server
 
 ```bash
   npm run dev
+```
+
+### Run express server
+
+Start the server
+
+```bash
+  node src/server.js
 ```
 
 ## Want to create your own?
