@@ -36,7 +36,7 @@ TOKEN_SECRET=<any random string>
 AUTH_URL=https://api.imgur.com/oauth2/authorize
 ACCESS_TOKEN_URL=https://api.imgur.com/oauth2/token
 
-VITE_REACT_APP_SERVER_URL = http://localhost:5000
+VITE_REACT_APP_SERVER_URL=http://localhost:5000
 ``` 
 
 ### Run React SPA
